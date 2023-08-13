@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+}
+/* set all elements margin and padding to 0*/
+
+nav{
+    background-color: #E4EDE6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 45%;
+    height: 6.25em; 
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 25px;
+}
+nav ul li a{
+    text-decoration:none;
+    color: black;
+}
+nav ul li a:hover{
+    color: rgb(166, 143, 109);
+    font-size: 1.02em;
+}
+body{
+    color:black;
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+}
+.call
+{
+    border-radius: 45px;
+    background-color:black;
+    color:white;
+    height: 135%;
+    width: 135%;
+    border : black;
+    justify-content: center;
+    font-size: 15px;
+}
+.sec1
+{
+    height:35rem;
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to bottom, #E4EDE6,white);
+}
+.sec1 div{
+    width: 50%; 
+}
+/*margin : top-right-bottm-left*/
+.leftsection
+{
+    
+    margin:0.9375em 1.5625em 1.4375em 3.125em;
+    height:28em;
+}
+.rightsection
+{
+    margin:0.9375em 3.125em 1.4375em 1.5625em;
+    height: 28em;
+}
+#logo
+{
+    background-image:url(logo.png);
+    height:  8.875em;
+    width: 9.3125em;
+    background-repeat: no-repeat;
+    margin:2.125em;
+}
+.name
+{
+    height:  4em;
+    width:20rem;
+    margin:1.8em 0 0 0;
+    font-size:5vh;
+     font-weight: 400; 
+     text-align:left; 
+     color :rgba(67, 48, 48, 0.912);
+     font-family: 'Poppins', sans-serif ;
+     align-items: center;
+}
+#skill
+{
+    margin: 0;
+}
+#meta
+{
+    display: flex;
+    width: fit-content;
+}
+#main-imagex
+{
+    background-image: url(main-image.png);
+    height: 24rem;
+    width: 23rem;
+    background-repeat: no-repeat;
+    resize: both;
+    margin-top: 2.125em;
+    margin-left: 25%;
+    object-fit: cover;
+}
+img 
+{
+        margin-top: 2.125em;
+        margin-left: 20%;
+        width: 23.125rem;
+        height: 26.5em;
+        object-fit: cover;
+}
+#description
+{
+    padding-left:2.125em;
+    width: fit-content;
+}
+
+.sec2
+{
+    background-image: linear-gradient(white,#E4EDE6);
+    margin-top: auto;
+    height:35em;
+}
+.marginLeft{
+    margin-left: 3.5em;
+   
+}
+.skillelement{
+    
+    display:flex;
+    justify-content: space-around;
+    margin-left:3.125em;
+    margin-right:3.125em;
+}
+.skillelement div{
+    height: 18.75em;
+    margin: 0 10px 10px 10px;
+    border-radius: 45px;
+    width: 30%;
+}
+ #skilltext
+{
+    position:relative;
+    top: 180px;
+    font-size:x-large;
+    font-weight:500;
+}
+.star-rating
+{
+    flex-direction: column;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+.stars
+{
+    display: flex;
+    letter-spacing: 4px; 
+    list-style-type: none;
+    width: 400px;
+    height: 100px;
+}
+.star
+{
+    padding-left:2px;
+}
+.fade
+{
+    color: #9A8181;
+}
+.circle
+{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: antiquewhite;
+}
+.skillElement{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 95%;
+    box-sizing: border-box;
+    margin: auto;
+}
+.card{
+    width: 25%;
+    max-height: 18.75em;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    border-radius: 45px;
+}
+.content-group
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    gap: 2rem;
+}
+.circle-bg{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-title{
+    font-size: x-large;
+    font-weight: 500;
+    text-align: left;
+    max-width: 60%;
+    padding: 20px 20px 10px 0;
+    color: rgb(0, 0, 0);
+}
+.sec3
+{
+    background-image: linear-gradient(white,#E4EDE6);
+    height:max-content;
+    padding-bottom: 3rem;
+}
+.project-title
+{
+    text-align: left;
+    padding: 1em 1em 0 1.8em;
+    font-size:5vh;
+    font-weight: 400; 
+    text-align:left; 
+    color :rgba(67, 48, 48, 0.912);
+    font-family: 'Poppins', sans-serif ;
+    height:  4em;
+    width:20rem;
+}
+.parts
+{
+    width: 50rem;
+    flex-direction: column;
+    background-color: blanchedalmond;
+}
+.project_section
+{
+    display: flex;
+    width: 100%;
+    background-color: blue;
+    height: 33%;
+}
+
+.section-one-content
+{
+    display: flex;
+}
+.image-sec
+{
+    width: 50%;
+    border-radius:45px;
+}
+.skill-img
+{
+    border-radius: 45px;
+    width:80%;
+    height: 22rem;
+}
+
+.desc-sec
+{
+    width: 50%;
+    padding:3rem;
+    max-width: 20rem;
+}
+/* .vl 
+{
+    border-left: 1px solid rgb(195, 195, 195);
+    margin: 3rem;
+    height:20rem;
+} */
+.leftsection{
+    width: 50%;
+    padding-left: 5rem;
+    text-align: start;
+}
+.section-one-content{
+    margin:0;
+    margin-right: 0;
+    padding-bottom: 0;
+    height: 25rem;
+}
+#rightimage
+{
+    border-radius: 45px;
+    width:100%;
+    height: 22rem;
+}
+.sec4
+{
+    background-color:#283044;
+    height: 27rem;
+    display: flex;
+    padding:5rem 3rem 3rem 3rem;
+    text-align: center;
+    font-family: Poppins;
+}
+.leftside
+{
+
+    width: 50%;
+}
+.rightside
+{
+    width: 50%;
+    color:#ffffff;
+    text-align: left;
+    padding-left: 6rem;
+  
+}
+.contact-info
+{
+    width:22rem;
+    height:27rem;
+    border-radius: 10px;
+    margin-left:5rem;
+    margin-top: -2.5rem;
+    background-color: #e8e7e7;
+    padding-top: 25px;
+    text-align: left;
+    padding-left: 5rem;
+    font-size: larger;
+    font-weight: 400;
+}
+button
+{
+    background-color: #69BF69;
+    color:white;
+    width: 150px;
+    border: none;
+    height: 30px;
+    border-radius: 45px;
+}
+label{
+    height: 40px;
+}
+input
+{
+    margin-bottom: 1.2rem;
+    height: 30px;
+    width: 250px;
+    padding: 10px;
+    box-shadow:2px 2px #e8e7e7 ;
+    border:#e8e7e7;
+}
